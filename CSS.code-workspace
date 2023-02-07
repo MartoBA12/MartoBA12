@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"name": "CSS",
+			"path": "../../../../Downloads/parcial-2/CSS"
+		},
+		{
+			"name": "demo-files",
+			"path": "../../../../Downloads/parcial-2/demo-files"
+		},
+		{
+			"name": "fonts",
+			"path": "../../../../Downloads/parcial-2/fonts"
+		},
+		{
+			"name": "img",
+			"path": "../../../../Downloads/parcial-2/img"
+		},
+		{
+			"name": "video",
+			"path": "../../../../Downloads/parcial-2/video"
+		},
+		{
+			"name": "viajandi",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

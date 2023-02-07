@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+
+    <style>
+  *{box-sizing:border-box;}
+ 
+form{
+    width:400px;
+    padding:26px;
+    border-radius:10px;
+    margin:auto;
+    background-color:rgba(236, 240, 245, 0.274);
+}
+ 
+form label{
+    width:72px;
+    font-weight:bold;
+    display:inline-block;
+}
+ 
+form input[type="text"],
+form input[type="email"]{
+    width:180px;
+    padding:3px 10px;
+    border:1px solid #eadfff;
+    border-radius:3px;
+    background-color:#ffffff;
+    margin:8px 0;
+    display:inline-block;
+}
+ 
+form input[type="submit"]{
+    width:100%;
+    padding:8px 16px;
+    margin-top:32px;
+    border:1px solid rgb(151, 31, 199);
+    border-radius:5px;
+    display:block;
+    color:#fff;
+    background-color:#000;
+} 
+ 
+form input[type="submit"]:hover{
+    cursor:pointer;
+}
+ 
+textarea{
+    width:100%;
+    height:100px;
+    border:1px solid #f6f6f6;
+    border-radius:3px;
+    background-color:#f6f6f6;           
+    margin:8px 0;
+    /*resize: vertical | horizontal | none | both*/
+    resize:none;
+    display:block;
+}
+ 
+    </style>
+
+<style>
+    * {
+      box-sizing: border-box;
+    }
+     
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+     
+    [class*="col-"] {
+      float: left;
+      padding: 15px;
+    }
+     
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+</style>
+
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <font face="Georgia" size="5" color="white">
+                <h2 class="nombre-empresa">viajandi</h2>
+            </font>
+        </div>
+        
+        <div class="pags">
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="#">Historia</a>
+                <a href="#">Productos</a>
+            </nav>
+        </div>
+
+    </header>
+
+
+    <style>
+        
+        body {
+            background: url('img/fon-for.jpg') ;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        </style>
+    
+<form action="#" target="" method="get" name="formDatosPersonales">
+ 
+    <label for="nombre">Nombre</label>
+    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
+ <br>
+    <label for="apellidos">Apellidos</label>
+    <input type="text" name="apellidos" id="apellidos" placeholder="1r Apellido"/>
+ <br>
+    <label for="email" />Email</label>
+    <input type="email" name="email" id="email" placeholder="email" required />
+    
+    <center>
+    <font color="black">
+        <p for="p1"><p><b>Cual es tu viaje soñado</b></p>
+        <textarea name="mensaje" for="p1" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
+    </font>
+    </center>
+
+    <br>
+    <p><b>Duracion de viaje promedio</b></p>
+    <input type ="text" name="asunto" id="asunto" placeholder="Ejemplo:40hr"/>
+<br>
+    <p> 
+        <center>
+        <p><b>Cual de las agencias de viajes has oido hablar:</b></p>
+        </center> 
+        <input type="radio" name="dis" value="ea" required="required">Excel Tours
+        <input type="radio" name="dis" value="capcom" required="required">Los Delfines
+        <br><input type="radio" name="dis" value="square" required="required">Mega Travel 
+        <input type="radio" name="dis" value="gameloft" required="required">Best Day
+        <input type="radio" name="dis" value="activision" required="required">Price Travel
+    </p>
+    
+
+ 
+    <label for="asunto">Asunto</label>
+    <input type ="text" name="asunto" id="asunto" placeholder="titular de la consulta"/>
+ 
+    <p><b>Cuentanos tus experiencias con nosotros</b></p>
+    <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
+    
+    <input type="submit" name="enviar" value="enviar datos"/>
+</form>
+
+<div class="footer1">
+    <font color="blanco">
+        <br>
+        <h2>contactos</h2>
+        <p>num. cel: (464)114-2748</p>
+        <p>facebook: Martin Barrón</p>
+        <p>Instagram: pictutes_hd</p>
+        <p>Copyright 17 de agosto de 2022 por Martin Barrón Almaguer</p>
+        <br>
+        
+    </font>
+</div>
+    
+</body>
+</html>

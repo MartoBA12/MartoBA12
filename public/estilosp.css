@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+
+.container1{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.card img{
+width: 100%;
+height: 210px;
+}
+
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.card .contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.card .contenido a:hover{
+    background: #2fb4cc;
+    color: #ffffff;
+}
+
+.formulario{
+    position: relative;
+    left: 700px;
+    top: 100px;
+    width: 600px;
+    height: 410;
+    background-color: rgb(0, 0, 0);
+    }
+    .button{
+        font-size: 30px;
+        width: 100px;
+        height: 50px;
+    }
+    input[type="text"],
+    input[type="contraseña"]{
+        font-size: 20px;
+    }
+
+    .buscador{
+        position: relative;
+        left: 40s0px;
+        width: 200px;
+    }
+    
+    nav a:hover{
+        color: red;
+    }
+    
+    header{
+        position: relative;
+        z-index: 2;
+        display: flex;
+        height: 50px;
+        background-color: rgb(0, 0, 0);
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+    }
+    nav{
+        color: rgb(248, 12, 12);
+    }
+
+    body{
+        margin: 0;
+    }
+
+    #hero{
+        min-height: 100vh;
+        position:relative;
+    }
+
+    video{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .capa{
+        position:absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        background: #1c1c1d;
+        opacity: 1;
+        mix-blend-mode: overlay;
+    }
+    
+    .promo{
+        position: relative;
+        z-index: 2;
+
+        height: 50vh;
+        margin: 10%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    button{
+        background: #000000;
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 15px;
+        padding: 9px;
+        text-decoration: none;
+    }
+
+    button:hover {
+        background: #ffffff;
+        color: #000000;
+    }
+
+
+
+    .pags a{
+        text-decoration: none;
+        color: #ffffff;
+        padding: 10px;
+    }
+
+    .pags a:hover{
+        background: #ffffff;
+        color: #000000;
+    }
+
+    body log{
+        height: 130%;
+    }
+
+
+    .box1{
+        position: relative;
+        color: #ca5d5d;
+        width:300px;
+        height:350px;
+        top: 50px;
+        margin-left: 20%;
+
+    }
+
+    .box{
+        color: #ffffff;
+        width: 300px;
+        height: 250px;
+    }
+
+    .footer{
+        background-color: #000000;
+        margin-bottom: 0;
+    }
+
+.foto{
+    margin-top: 2%;
+}
+
+
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?et44gv');
+    src:  url('fonts/icomoon.eot?et44gv#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?et44gv') format('truetype'),
+      url('fonts/icomoon.woff?et44gv') format('woff'),
+      url('fonts/icomoon.svg?et44gv#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-facebook2:before {
+    content: "\ea91";
+  }
+  .icon-instagram:before {
+    content: "\ea92";
+  }
+  .icon-whatsapp:before {
+    content: "\ea93";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  
+  
+  
+  
+  .rsocial-bar{
+      position: fixed;
+      right: 0;
+      top: 35%;
+      font-size: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      z-index: 100;
+  }
+   
+  .icon{
+      color: white;
+      text-decoration: none;
+      padding: .7rem;
+      display: flex;
+      transition: all .5s;
+  }
+   
+  .icon-facebook2{
+      background: #0066ff;
+  }
+   
+  .icon-twitter{
+      background: #05b8ee;
+  }
+   
+  .icon-instagram{
+      background: #f78787;
+  }
+  
+  .icon-whatsapp{
+      background: #00ff00;
+  }
+   
+  .icon-tumblr2{
+      background: #0e0600ea;
+  }
+   
+  .icon:first-child {
+      border-radius: 1rem 0 0 0;
+  }
+   
+  .icon:last-child {
+      border-radius: 0 0 0 1rem;
+  }
+

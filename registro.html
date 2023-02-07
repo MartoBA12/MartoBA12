@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+         
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+         
+        [class*="col-"] {
+          float: left;
+          padding: 15px;
+        }
+         
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+    </style>        
+</head>
+<body>
+    <header color="black">
+        <div class="logo">
+            <font face="Georgia" size="5" color="white">
+                <h2 class="nombre-empresa">viajandi</h2>
+            </font>
+        </div>
+        <center>
+        
+    </center>
+        <div class="pags">
+            
+            <nav>
+                <a href="log.html">Iniciar-sesion</a>
+                <a href="historia.html" color="black">Historia</a>
+                <a href="#">Productos</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <style>
+
+        body {
+            background: url('img/fondo.jpg') ;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        </style>
+
+    <div class="formulario">
+        <center>
+            <form action="FORMULARIOS1.php" method="get">
+        <h1>Registro</h1>
+        <div class="contenedor">
+            <h3>ingresa tu nombre nombre</h3>
+            <input type="text" name="nombre" placeholder="Nombre">
+            <br>
+            <h3>ingresa tu apellido paterno</h3>
+            <input type="text" name="apellidopaterno" placeholder="Apellido paterno">
+            <br>
+            <h3>ingresa tu apellido materno</h3>
+            <input type="text" name="apellidomaterno" placeholder="Apellido paterno">
+            <br>
+            <h3>ingresa un correo</h3>
+            <div class="input-contenedor">
+                <input type="text" name="correo" placeholder="ejemplo@gmail.com">
+            </div>
+            <br>
+            <div class="input-contenedor">
+                <h3>ingresa una contraseña</h3>
+                <input type="text" name="contraseña" placeholder="contraseña">
+            </div>
+            <br>
+            <input type="submit" value="registrar">
+            <div class="inicio-for">
+                <a href="formulario.html"><img src="img/iniciar-sesion.png" width="50"></a>
+            </div>
+            <h2>si ya cuantas con una cuenta <a href="log.html">logeate</a></h2>
+        </div>
+    </div>
+        </center>
+    </form>
+
+    <div class="footer3">
+        <font color="blanco">
+            <br>
+            <h2>contactos</h2>
+            <p>num. cel: (464)114-2748</p>
+            <p>facebook: Martin Barrón</p>
+            <p>Instagram: pictutes_hd</p>
+            <p>Copyright 17 de agosto de 2022 por Martin Barrón Almaguer</p>
+            <br>
+            
+        </font>
+    </div>
+</body>
+</html>
